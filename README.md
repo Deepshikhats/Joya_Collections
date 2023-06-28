@@ -4,4 +4,4 @@
 
 ## Redux is used for state management.
 
-### Tech Stacks :- ReactJs,Bootstrap,Sass
+### Tech Stacks :- ReactJs,Bootstrap,Sass.
