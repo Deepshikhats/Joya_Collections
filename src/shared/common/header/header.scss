@@ -1,0 +1,16 @@
+.images {
+  height: 20px;
+  width: 20px;
+}
+.profile {
+  .dropdown-menu {
+    @media (min-width: "992px") {
+      left: -111px !important;
+    }
+  }
+}
+
+.bg {
+  background: var(--primary);
+  height: 80px;
+}

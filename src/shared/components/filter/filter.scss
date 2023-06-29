@@ -1,0 +1,11 @@
+.accH {
+  button {
+    box-shadow: none !important;
+  }
+}
+.slText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 130px;
+}

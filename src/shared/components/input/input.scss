@@ -1,0 +1,22 @@
+.wrapper {
+  border: 2px solid grey;
+  background: var(--offWhite);
+  border-radius: 4px;
+  align-items: center;
+  padding: 4px 8px;
+  min-height: 40px;
+
+  input {
+    outline: none;
+    border: none;
+    width: 95%;
+    background: transparent;
+    &::placeholder {
+      color: var(--grey1);
+    }
+  }
+  img {
+    height: 36px;
+    width: 36px;
+  }
+}

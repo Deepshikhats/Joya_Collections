@@ -1,0 +1,35 @@
+@import "../../../../App.scss";
+.logo_wrap {
+  @extend .h500;
+  @extend .boxShadow1;
+  @media screen and (max-width: 992px) {
+    height: auto;
+  }
+
+  .logoC {
+    background: var(--grey3);
+    .logo {
+      height: 300px;
+      width: 300px;
+    }
+  }
+}
+.transit {
+  transform: translateY(25px);
+}
+.label {
+  top: 25px;
+  color: var(--secondary-text);
+  transition: 0.2s all ease;
+}
+.t3 {
+  color: var(--grey1);
+  font-size: 12px;
+  a {
+    color: var(--blue) !important;
+  }
+}
+.otpBox {
+  height: 40px;
+  width: 40px;
+}
