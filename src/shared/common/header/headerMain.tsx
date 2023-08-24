@@ -38,7 +38,7 @@ const HeaderMain: React.FC = (): ReactElement => {
               Offcanvas
             </Offcanvas.Title>
           </Offcanvas.Header>
-          <Offcanvas.Body>
+          <Offcanvas.Body className="align-items-center">
             <Nav className="w-100 d-flex me-auto">
               <NavDropdown title="All Collection" id="collection-dropdown">
                 <NavDropdown.Item href="#action/3.2" disabled>

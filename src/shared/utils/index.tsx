@@ -1,5 +1,6 @@
 import { baseStyles, stockDetailsStyles, sortStyle } from "./styles";
 import { personSchema } from "./validations";
+import { allCollections } from "./collection";
 import {
   RoundLoader,
   ProductFeaturesLoader,
@@ -17,4 +18,5 @@ export {
   ProductDescriptionSkeleton,
   HomeProductListSkeleton,
   OrderSummarySkeleton,
+  allCollections,
 };
